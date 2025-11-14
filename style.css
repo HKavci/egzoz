@@ -6,9 +6,9 @@
 }
 
 :root {
-    --primary-color: #e74c3c;
-    --secondary-color: #c0392b;
-    --accent-color: #ff6b6b;
+    --primary-color: #ff6b6b;
+    --secondary-color: #e74c3c;
+    --accent-color: #ff8787;
     --dark-bg: #2c3e50;
     --text-dark: #1a202c;
     --text-light: #718096;
@@ -16,7 +16,7 @@
     --bg-light: #f7fafc;
     --bg-white: #ffffff;
     --border-color: #e2e8f0;
-    --success-color: #27ae60;
+    --success-color: #ff6b6b;
     --warning-color: #f39c12;
     --shadow-sm: 0 2px 4px rgba(0,0,0,0.1);
     --shadow-md: 0 4px 6px rgba(0,0,0,0.1);
@@ -625,16 +625,16 @@ section {
 }
 
 .whatsapp-card:hover {
-    background: #25D366 !important;
+    background: var(--primary-color) !important;
 }
 
 .btn-success {
-    background: #25D366;
+    background: var(--primary-color);
     color: var(--text-white);
 }
 
 .btn-success:hover {
-    background: #20ba5a;
+    background: var(--secondary-color);
 }
 
 .info-card a:hover {
