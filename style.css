@@ -6,9 +6,9 @@
 }
 
 :root {
-    --primary-color: #e74c3c;
-    --secondary-color: #c0392b;
-    --accent-color: #ff6b6b;
+    --primary-color: #ff6b6b;
+    --secondary-color: #e74c3c;
+    --accent-color: #ff8787;
     --dark-bg: #2c3e50;
     --text-dark: #1a202c;
     --text-light: #718096;
