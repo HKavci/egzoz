@@ -125,7 +125,7 @@ window.addEventListener('scroll', animateOnScroll);
 // Phone number click tracking (optional analytics)
 document.querySelectorAll('a[href^="tel:"]').forEach(link => {
     link.addEventListener('click', () => {
-        console.log('Phone number clicked:', link.href);
+        // console.log('Phone number clicked:', link.href);
         // Add analytics tracking here if needed
     });
 });
@@ -133,7 +133,7 @@ document.querySelectorAll('a[href^="tel:"]').forEach(link => {
 // WhatsApp click tracking (optional analytics)
 document.querySelectorAll('a[href*="wa.me"]').forEach(link => {
     link.addEventListener('click', () => {
-        console.log('WhatsApp link clicked');
+        // console.log('WhatsApp link clicked');
         // Add analytics tracking here if needed
     });
 });
@@ -228,8 +228,3 @@ const debouncedScrollHandler = debounce(() => {
 }, 10);
 
 window.addEventListener('scroll', debouncedScrollHandler);
-
-// Console message for developers
-console.log('%c Profesyonel Egzoz Tamircisi ', 'background: #e74c3c; color: white; font-size: 20px; padding: 10px;');
-console.log('%c Developed by Tandoğan Erten ', 'background: #2c3e50; color: white; font-size: 14px; padding: 5px;');
-console.log('%c https://github.com/TandoganErten ', 'color: #e74c3c; font-size: 12px;');
