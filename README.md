@@ -1,6 +1,6 @@
 # Profesyonel Egzoz Tamircisi Website
 
-Ankara Keçiören'de hizmet veren profesyonel egzoz tamiri ve değişimi servisi web sitesi.
+Aydın Nazilli'de hizmet veren profesyonel egzoz tamiri ve değişimi servisi web sitesi.
 
 ## 🚀 Özellikler
 
@@ -14,19 +14,22 @@ Ankara Keçiören'de hizmet veren profesyonel egzoz tamiri ve değişimi servisi
 ## 📋 Sayfalar ve Bölümler
 
 ### Ana Sayfa
+
 - Hero bölümü
 - Hizmetler bölümü (6 farklı hizmet)
 - Hakkımızda bölümü
 - Neden Biz? bölümü
+- SSS bölümü
 - İletişim bölümü
 
 ### Hizmetler
-1. Egzoz Tamiri
-2. Egzoz Değişimi
-3. Susturucu Tamiri
-4. Performans Egzozu
-5. Katalizör Tamiri
-6. Manifold Tamiri
+
+1. Oto Aksesuar
+2. Egzoz Tamir & Değişim
+3. DPF (Partikül Filtre) Temizliği
+4. Katalizör Temizliği
+5. Manifold Tamiri
+6. Performans Egzozu
 
 ## 🛠️ Teknolojiler
 
@@ -60,7 +63,6 @@ Ankara Keçiören'de hizmet veren profesyonel egzoz tamiri ve değişimi servisi
 
 - Telefon araması (tel: links)
 - WhatsApp direkt mesaj
-- Randevu formu
 - Google Maps konum (hazır)
 
 ## 🚀 Kurulum
@@ -79,25 +81,29 @@ Ankara Keçiören'de hizmet veren profesyonel egzoz tamiri ve değişimi servisi
 ## 📝 Özelleştirme
 
 ### Renkleri Değiştirme
+
 `style.css` dosyasında `:root` bölümündeki CSS değişkenlerini düzenleyin:
 
 ```css
 :root {
-    --primary-color: #e74c3c;
-    --secondary-color: #c0392b;
-    --accent-color: #ff6b6b;
-    /* ... */
+  --primary-color: #e74c3c;
+  --secondary-color: #c0392b;
+  --accent-color: #ff6b6b;
+  /* ... */
 }
 ```
 
 ### İletişim Bilgileri
+
 `index.html` dosyasında aşağıdaki bölümleri güncelleyin:
+
 - Telefon numaraları
 - WhatsApp numarası (script.js içinde de)
 - Adres bilgileri
 - Çalışma saatleri
 
 ### Logo Ekleme
+
 `images` klasörüne logo.png ekleyin ve `index.html` içinde navbar'a ekleyin.
 
 ## 🌟 SEO İyileştirmeleri
@@ -119,26 +125,13 @@ Ankara Keçiören'de hizmet veren profesyonel egzoz tamiri ve değişimi servisi
 ## 🔧 Geliştirici
 
 **Tandoğan Erten**
+
 - GitHub: [@TandoganErten](https://github.com/TandoganErten)
+
+**Hakan Kavcı**
+
+- Linkedin: (https://www.linkedin.com/in/hakan-kavci/)
 
 ## 📄 Lisans
 
 Bu proje örnek/şablon amaçlıdır. Ticari kullanımda tüm içerik ve görselleri kendi işletmenize göre özelleştirin.
-
-## 🎯 Gelecek Geliştirmeler
-
-- [ ] Blog sayfası
-- [ ] Galeri sayfası
-- [ ] Online randevu sistemi
-- [ ] Canlı sohbet entegrasyonu
-- [ ] Çoklu dil desteği
-- [ ] Müşteri yorumları bölümü
-- [ ] Ödeme sistemi entegrasyonu
-
-## 📞 Destek
-
-Sorularınız için: [İletişim](mailto:contact@tandoganerten.com)
-
----
-
-**Not**: Telefon numaralarını, adresleri ve diğer iletişim bilgilerini kendi işletmenizin bilgileri ile değiştirmeyi unutmayın!

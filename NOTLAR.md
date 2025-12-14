@@ -1,4 +1,4 @@
-# Profesyonel Egzoz Tamircisi - Ankara Keçiören
+# Profesyonel Egzoz Tamircisi - Nazilli Aydın
 
 Bu dizin, SEO kurallarına uygun, profesyonel egzoz tamircisi web sitesini içerir.
 
@@ -15,7 +15,6 @@ Bu dizin, SEO kurallarına uygun, profesyonel egzoz tamircisi web sitesini içer
 ✅ Schema.org yapılandırılmış veri
 ✅ Responsive tasarım (mobil uyumlu)
 ✅ WhatsApp entegrasyonu
-✅ Randevu formu
 ✅ 6 farklı hizmet bölümü
 ✅ Modern ve profesyonel tasarım
 
@@ -30,6 +29,4 @@ Bu dizin, SEO kurallarına uygun, profesyonel egzoz tamircisi web sitesini içer
 `index.html` ve `script.js` dosyalarında:
 - Telefon numaraları: `+90 555 123 45 67`
 - WhatsApp: `905551234567`
-- Adres: Keçiören, Ankara
-
-Bu bilgileri kendi işletmenizin bilgileri ile değiştirin.
+- Adres: Nazilli, Aydın
