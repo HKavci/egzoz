@@ -262,6 +262,38 @@ a {
     color: var(--primary-color);
 }
 
+.btn-success {
+    background: #4ECB71;
+    color: var(--text-white);
+    box-shadow: var(--shadow-md);
+}
+
+.btn-success:hover {
+    background: #3BB55C;
+    transform: translateY(-2px);
+    box-shadow: var(--shadow-lg);
+    color: var(--text-white) !important;
+}
+
+.services-link {
+    color: var(--text-white);
+    font-size: 1rem;
+    font-weight: 500;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    opacity: 0.9;
+    transition: var(--transition);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+    padding-bottom: 5px;
+}
+
+.services-link:hover {
+    opacity: 1;
+    border-bottom-color: var(--text-white);
+    transform: translateY(-2px);
+}
+
 .hero-features {
     display: flex;
     gap: 2rem;
@@ -609,16 +641,6 @@ section {
 
 .whatsapp-card:hover {
     background: #ffe6e6 !important;
-}
-
-.btn-success {
-    background: var(--primary-color);
-    color: var(--text-white);
-}
-
-.btn-success:hover {
-    background: var(--secondary-color);
-    color: var(--text-white) !important;
 }
 
 .info-card a:hover {
