@@ -197,7 +197,8 @@ a {
 }
 
 .hero-title .highlight {
-    color: var(--accent-color);
+    /* color: var(--accent-color); */
+    color: var(--bg-light);
     display: inline-block;
 }
 
