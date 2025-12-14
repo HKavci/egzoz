@@ -894,12 +894,12 @@ section {
     }
 
     .hero-buttons {
-        flex-direction: column;
+        gap: 0.75rem;
     }
 
     .btn {
-        width: 100%;
-        justify-content: center;
+        padding: 10px 20px;
+        font-size: 0.9rem;
     }
 
     .section-title {
