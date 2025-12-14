@@ -200,7 +200,7 @@ a {
     /* color: var(--accent-color); */
     color: var(--bg-light);
     display: inline-block;
-    font-size: 2.4rem;
+    font-size: 2.8rem;
 }
 
 .hero-subtitle {
@@ -926,6 +926,10 @@ section {
         font-size: 2.5rem;
     }
 
+    .hero-title .highlight {
+        font-size: 2rem;
+    }
+
     .hero-subtitle {
         font-size: 1.2rem;
     }
@@ -954,6 +958,10 @@ section {
 @media (max-width: 640px) {
     .hero-title {
         font-size: 2rem;
+    }
+
+    .hero-title .highlight {
+        font-size: 1.6rem;
     }
 
     .hero-subtitle {
