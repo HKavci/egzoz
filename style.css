@@ -260,6 +260,7 @@ a {
     background: var(--secondary-color);
     transform: translateY(-2px);
     box-shadow: var(--shadow-lg);
+    color: var(--text-white) !important;
 }
 
 .btn-secondary {
@@ -571,20 +572,14 @@ section {
 }
 
 .info-card:hover {
-    background: var(--primary-color);
-    color: var(--text-white);
+    background: #ffe6e6;
+    color: var(--text-dark);
     transform: translateY(-5px);
     box-shadow: var(--shadow-md);
 }
 
 .info-card:hover .info-icon {
-    background: var(--text-white);
-    color: var(--primary-color);
-}
-
-.info-card:hover h3,
-.info-card:hover p,
-.info-card:hover a {
+    background: var(--primary-color);
     color: var(--text-white);
 }
 
@@ -620,12 +615,12 @@ section {
     margin-top: 0.3rem;
 }
 
-.info-card:hover a {
-    color: var(--text-white);
+.info-card:hover a:not(.btn) {
+    color: var(--text-dark);
 }
 
 .whatsapp-card:hover {
-    background: var(--primary-color) !important;
+    background: #ffe6e6 !important;
 }
 
 .btn-success {
@@ -635,6 +630,7 @@ section {
 
 .btn-success:hover {
     background: var(--secondary-color);
+    color: var(--text-white) !important;
 }
 
 .info-card a:hover {
