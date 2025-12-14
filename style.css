@@ -191,7 +191,7 @@ a {
 .hero-title {
     font-size: 3.5rem;
     font-weight: 700;
-    margin-bottom: 1rem;
+    margin-bottom: 2.5rem;
     line-height: 1.2;
     animation: fadeInUp 0.8s ease;
 }
@@ -200,18 +200,19 @@ a {
     /* color: var(--accent-color); */
     color: var(--bg-light);
     display: inline-block;
+    font-size: 2.4rem;
 }
 
 .hero-subtitle {
     font-size: 1.5rem;
     font-weight: 500;
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
     animation: fadeInUp 0.8s ease 0.2s backwards;
 }
 
 .hero-description {
     font-size: 1.1rem;
-    margin-bottom: 2rem;
+    margin-bottom: 3.5rem;
     opacity: 0.9;
     animation: fadeInUp 0.8s ease 0.4s backwards;
 }
@@ -221,7 +222,7 @@ a {
     gap: 1rem;
     justify-content: center;
     flex-wrap: wrap;
-    margin-bottom: 2rem;
+    margin-bottom: 3.5rem;
     animation: fadeInUp 0.8s ease 0.6s backwards;
 }
 
@@ -300,7 +301,7 @@ a {
     justify-content: center;
     flex-wrap: wrap;
     animation: fadeInUp 0.8s ease 0.8s backwards;
-    margin-top: 3rem;
+    margin-top: 5rem;
 }
 
 .feature-item {
