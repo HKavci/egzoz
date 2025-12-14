@@ -311,7 +311,8 @@ a {
 }
 
 .feature-item i {
-    color: var(--accent-color);
+    /* color: var(--accent-color); */
+    color: var(--bg-light);
     font-size: 1.5rem;
 }
 
