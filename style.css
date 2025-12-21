@@ -618,6 +618,7 @@ section {
     border-radius: 15px;
     overflow: hidden;
     box-shadow: var(--shadow-lg);
+    margin-top: 2rem;
 }
 
 .about-image img {
